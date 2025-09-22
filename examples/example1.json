@@ -1,0 +1,1994 @@
+[
+  {
+    "id": 1,
+    "name": "Carlos",
+    "age": 40,
+    "is_active": true,
+    "signup_date": "2021-01-02",
+    "last_login": "2021-01-02T01:07:00",
+    "scores": [
+      74.659,
+      97.818,
+      81.029,
+      75.315,
+      85.766
+    ],
+    "address": {
+      "street": "Piazza Duomo",
+      "city": "Verona",
+      "zip": "00100"
+    },
+    "tags": [
+      "alpha",
+      "vip",
+      "beta",
+      "γamma"
+    ],
+    "notes": "JSON-looking text: {\"fake\": true}",
+    "balance": 10042.6,
+    "preferences": {
+      "newsletter": null,
+      "theme": "light",
+      "language": "en"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 1.0
+  },
+  {
+    "id": 2,
+    "name": "Elena",
+    "age": 18,
+    "is_active": true,
+    "signup_date": "2021-01-03",
+    "last_login": "2021-01-03T02:14:00",
+    "scores": [
+      69.747,
+      69.181,
+      76.138,
+      69.595,
+      33.748
+    ],
+    "address": {
+      "street": "Corso Italia",
+      "city": "Turin",
+      "zip": "00100"
+    },
+    "tags": [],
+    "notes": "Quoted \"word\" inside.",
+    "balance": -409.67,
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Łukasz",
+    "age": 67,
+    "is_active": null,
+    "signup_date": "2021-01-04",
+    "last_login": "2021-01-04T03:21:00",
+    "scores": [
+      39.595,
+      1.575,
+      77.732,
+      14.329,
+      25.23
+    ],
+    "address": {
+      "street": "Viale Europa",
+      "city": "Palermo",
+      "zip": "80100"
+    },
+    "tags": [
+      "vip",
+      "新規",
+      "test,comma"
+    ],
+    "notes": "JSON-looking text: {\"fake\": true}",
+    "balance": 4130.76,
+    "preferences": {
+      "newsletter": null,
+      "theme": null,
+      "language": "de"
+    },
+    "nullable_field": null,
+    "mixed_type_field": null
+  },
+  {
+    "id": 4,
+    "name": "Łukasz",
+    "age": 30,
+    "is_active": null,
+    "signup_date": "2021-01-05",
+    "last_login": "2021-01-05T04:28:00",
+    "scores": [
+      84.567,
+      39.762,
+      58.812,
+      20.08
+    ],
+    "address": {
+      "street": null,
+      "city": "Verona",
+      "zip": "10100"
+    },
+    "tags": [
+      "δelta",
+      "support",
+      "sales",
+      "alpha"
+    ],
+    "notes": "Multiline\ntext with line breaks.\nAnother line.",
+    "balance": -4473.91,
+    "preferences": {
+      "newsletter": true,
+      "theme": null,
+      "language": "es"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 4
+  },
+  {
+    "id": 5,
+    "name": "Alice",
+    "age": 30,
+    "is_active": true,
+    "signup_date": "2021-01-06",
+    "last_login": "2021-01-06T05:35:00",
+    "scores": [
+      91.411,
+      39.646,
+      76.95,
+      60.476,
+      10.086
+    ],
+    "address": {
+      "street": "Piazza Duomo",
+      "city": "Genoa",
+      "zip": "10100"
+    },
+    "tags": [],
+    "notes": "JSON-looking text: {\"fake\": true}",
+    "balance": 12052.39,
+    "preferences": {
+      "newsletter": null,
+      "theme": "light",
+      "language": "es"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": "5"
+  },
+  {
+    "id": 6,
+    "name": "Zoë",
+    "age": 67,
+    "is_active": false,
+    "signup_date": "2021-01-07",
+    "last_login": "2021-01-07T06:42:00",
+    "scores": [],
+    "address": {
+      "street": "Piazza Duomo",
+      "city": "Milan",
+      "zip": "80100"
+    },
+    "tags": [
+      "sales"
+    ],
+    "notes": "Multiline\ntext with line breaks.\nAnother line.",
+    "balance": 15140.52,
+    "preferences": {
+      "newsletter": null,
+      "theme": "system",
+      "language": "en"
+    },
+    "nullable_field": null,
+    "mixed_type_field": 6
+  },
+  {
+    "id": 7,
+    "name": "Alice",
+    "age": null,
+    "is_active": true,
+    "signup_date": "2021-01-08",
+    "last_login": null,
+    "scores": [
+      23.441,
+      76.477,
+      49.18,
+      17.737,
+      94.62
+    ],
+    "address": {
+      "street": "Piazza Duomo",
+      "city": "Bologna",
+      "zip": null
+    },
+    "tags": [
+      "support",
+      "alpha",
+      "新規"
+    ],
+    "notes": "Contains, commas, and; semicolons.",
+    "balance": -4249.7,
+    "preferences": {
+      "newsletter": null,
+      "theme": "dark",
+      "language": "it"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": "7"
+  },
+  {
+    "id": 8,
+    "name": null,
+    "age": null,
+    "is_active": null,
+    "signup_date": "2021-01-09",
+    "last_login": "2021-01-09T08:56:00",
+    "scores": [],
+    "address": {
+      "street": "Via Roma",
+      "city": "Verona",
+      "zip": "10100"
+    },
+    "tags": [
+      "sales",
+      "test,comma"
+    ],
+    "notes": "Empty string becomes \"\"",
+    "balance": 2890.86,
+    "preferences": {
+      "newsletter": null,
+      "theme": "dark",
+      "language": "de"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 8
+  },
+  {
+    "id": 9,
+    "name": "Diana",
+    "age": 55,
+    "is_active": null,
+    "signup_date": "2021-01-10",
+    "last_login": "2021-01-10T09:03:00",
+    "scores": [
+      96.017,
+      69.338,
+      28.777,
+      62.636,
+      95.916
+    ],
+    "address": {
+      "street": "Viale Europa",
+      "city": "Naples",
+      "zip": "90100"
+    },
+    "tags": [
+      "🚀",
+      "test,comma",
+      "quote\"inside"
+    ],
+    "notes": "Empty string becomes \"\"",
+    "balance": 14150.13,
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "en"
+    },
+    "nullable_field": null,
+    "mixed_type_field": null
+  },
+  {
+    "id": 10,
+    "name": "Zoë",
+    "age": 67,
+    "is_active": null,
+    "signup_date": "2021-01-11",
+    "last_login": "2021-01-11T10:10:00",
+    "scores": [
+      26.282,
+      82.116,
+      42.014,
+      17.78
+    ],
+    "address": {
+      "street": "Corso Italia",
+      "city": "Bologna",
+      "zip": "80100"
+    },
+    "tags": [
+      "δelta",
+      "新規",
+      "alpha",
+      "vip",
+      "test,comma"
+    ],
+    "notes": "Unicode: café, jalapeño, crème brûlée.",
+    "balance": -3647.2,
+    "nullable_field": "not null",
+    "mixed_type_field": 10.0
+  },
+  {
+    "id": 11,
+    "name": "Łukasz",
+    "age": 40,
+    "is_active": true,
+    "signup_date": "2021-01-12",
+    "last_login": "2021-01-12T11:17:00",
+    "scores": [
+      96.482,
+      20.464,
+      50.688,
+      66.328
+    ],
+    "address": {
+      "street": "Strada Statale",
+      "city": "Turin",
+      "zip": "90100"
+    },
+    "tags": [
+      "test,comma"
+    ],
+    "notes": "CSV tricky: \"starts with quote, has comma, ends with quote\"",
+    "balance": 13191.4,
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": null
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": {
+      "n": 11
+    }
+  },
+  {
+    "id": 12,
+    "name": "Elena",
+    "age": 21,
+    "is_active": null,
+    "signup_date": "2021-01-13",
+    "last_login": "2021-01-13T12:24:00",
+    "scores": [
+      3.917,
+      16.008
+    ],
+    "address": {
+      "street": null,
+      "city": "Naples",
+      "zip": "20100"
+    },
+    "tags": [
+      "test,comma",
+      "δelta",
+      "beta",
+      "新規"
+    ],
+    "notes": "Unicode: café, jalapeño, crème brûlée.",
+    "balance": 14832.59,
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "en"
+    },
+    "nullable_field": null,
+    "mixed_type_field": [
+      12,
+      13
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Carlos",
+    "age": 18,
+    "is_active": false,
+    "signup_date": "2021-01-14",
+    "last_login": "2021-01-14T13:31:00",
+    "scores": [
+      49.215
+    ],
+    "address": {
+      "street": null,
+      "city": "Verona",
+      "zip": "20100"
+    },
+    "tags": [],
+    "notes": "CSV tricky: \"starts with quote, has comma, ends with quote\"",
+    "balance": 16201.87,
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": null
+  },
+  {
+    "id": 14,
+    "name": "Carlos",
+    "age": 40,
+    "is_active": false,
+    "signup_date": "2021-01-15",
+    "last_login": null,
+    "scores": [],
+    "address": {
+      "street": "Via Roma",
+      "city": "Rome",
+      "zip": "90100"
+    },
+    "tags": [
+      "新規",
+      "quote\"inside",
+      "test,comma",
+      "support"
+    ],
+    "notes": "Simple note.",
+    "balance": 16335.28,
+    "preferences": {
+      "newsletter": true,
+      "theme": "system",
+      "language": "es"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 14
+  },
+  {
+    "id": 15,
+    "name": "Bob",
+    "age": 67,
+    "is_active": null,
+    "signup_date": "2021-01-16",
+    "last_login": "2021-01-16T15:45:00",
+    "scores": [
+      31.59,
+      67.719,
+      55.721
+    ],
+    "tags": [
+      "sales",
+      "alpha",
+      "beta",
+      "vip",
+      "test,comma"
+    ],
+    "notes": "Simple note.",
+    "balance": 8156.83,
+    "preferences": {
+      "newsletter": false,
+      "theme": "system",
+      "language": "es"
+    },
+    "nullable_field": null,
+    "mixed_type_field": {
+      "n": 15
+    }
+  },
+  {
+    "id": 16,
+    "name": "Alice",
+    "age": 25,
+    "is_active": false,
+    "signup_date": "2021-01-17",
+    "last_login": "2021-01-17T16:52:00",
+    "scores": [
+      48.767,
+      59.639,
+      81.663,
+      55.486
+    ],
+    "address": {
+      "street": "Via Roma",
+      "city": "Verona",
+      "zip": "80100"
+    },
+    "tags": [
+      "γamma",
+      "δelta",
+      "beta",
+      "test,comma"
+    ],
+    "notes": "Multiline\ntext with line breaks.\nAnother line.",
+    "balance": -1374.37,
+    "preferences": {
+      "newsletter": null,
+      "theme": "system",
+      "language": null
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": "16"
+  },
+  {
+    "id": 17,
+    "name": "Elena",
+    "age": 40,
+    "is_active": null,
+    "signup_date": "2021-01-18",
+    "last_login": "2021-01-18T17:59:00",
+    "scores": [
+      37.892,
+      14.239,
+      24.426,
+      56.082
+    ],
+    "address": {
+      "street": "Viale Europa",
+      "city": "Genoa",
+      "zip": "80100"
+    },
+    "tags": [],
+    "notes": "JSON-looking text: {\"fake\": true}",
+    "balance": 15077.73,
+    "preferences": {
+      "newsletter": false,
+      "theme": "system",
+      "language": "fr"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": null
+  },
+  {
+    "id": 18,
+    "name": "Alice",
+    "age": 40,
+    "is_active": true,
+    "signup_date": "2021-01-19",
+    "last_login": "2021-01-19T18:06:00",
+    "scores": [
+      69.82,
+      98.827,
+      77.366
+    ],
+    "address": {
+      "street": "Via Roma",
+      "city": "Palermo",
+      "zip": "90100"
+    },
+    "tags": [
+      "vip",
+      "support",
+      "sales"
+    ],
+    "notes": "Multiline\ntext with line breaks.\nAnother line.",
+    "balance": 14985.86,
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": null
+    },
+    "nullable_field": null,
+    "mixed_type_field": [
+      18,
+      19
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Francesco",
+    "age": 55,
+    "is_active": null,
+    "signup_date": "2021-01-20",
+    "last_login": "2021-01-20T19:13:00",
+    "scores": [
+      33.83,
+      34.703,
+      65.121,
+      88.379
+    ],
+    "address": {
+      "street": "Piazza Duomo",
+      "city": "Bologna",
+      "zip": "00100"
+    },
+    "tags": [
+      "🚀",
+      "beta",
+      "support",
+      "quote\"inside"
+    ],
+    "notes": "Emoji: 😀👍🔥💼",
+    "balance": 14015.55,
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": [
+      19,
+      20
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Bob",
+    "age": 21,
+    "is_active": true,
+    "signup_date": "2021-01-21",
+    "last_login": "2021-01-21T20:20:00",
+    "scores": [
+      65.941,
+      61.502,
+      61.258,
+      78.801
+    ],
+    "address": {
+      "street": "Viale Europa",
+      "city": "Florence",
+      "zip": "20100"
+    },
+    "tags": [
+      "γamma",
+      "新規"
+    ],
+    "notes": "Unicode: café, jalapeño, crème brûlée.",
+    "balance": -2709.37,
+    "nullable_field": "not null",
+    "mixed_type_field": 20.0
+  },
+  {
+    "id": 21,
+    "name": "Γιάννης",
+    "age": 55,
+    "is_active": null,
+    "signup_date": "2021-01-22",
+    "last_login": null,
+    "scores": [
+      88.349
+    ],
+    "address": {
+      "street": "Corso Italia",
+      "city": "Milan",
+      "zip": "90100"
+    },
+    "tags": [
+      "test,comma",
+      "sales",
+      "support",
+      "vip"
+    ],
+    "notes": "Unicode: café, jalapeño, crème brûlée.",
+    "balance": 18704.39,
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "es"
+    },
+    "nullable_field": null,
+    "mixed_type_field": "21"
+  },
+  {
+    "id": 22,
+    "name": "Alice",
+    "age": 18,
+    "is_active": true,
+    "signup_date": "2021-01-23",
+    "last_login": "2021-01-23T22:34:00",
+    "scores": [
+      34.57,
+      15.08,
+      79.922
+    ],
+    "address": {
+      "street": "Strada Statale",
+      "city": null,
+      "zip": "10100"
+    },
+    "tags": [
+      "sales",
+      "γamma",
+      "support",
+      "quote\"inside"
+    ],
+    "notes": "Unicode: café, jalapeño, crème brûlée.",
+    "balance": 4509.05,
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "en"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": {
+      "n": 22
+    }
+  },
+  {
+    "id": 23,
+    "name": "Carlos",
+    "age": 25,
+    "is_active": null,
+    "signup_date": "2021-01-24",
+    "last_login": "2021-01-24T23:41:00",
+    "scores": [
+      15.805
+    ],
+    "address": {
+      "street": null,
+      "city": "Turin",
+      "zip": "10100"
+    },
+    "tags": [
+      "γamma",
+      "sales",
+      "δelta",
+      "test,comma",
+      "quote\"inside"
+    ],
+    "notes": "JSON-looking text: {\"fake\": true}",
+    "balance": 12104.06,
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "it"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": {
+      "n": 23
+    }
+  },
+  {
+    "id": 24,
+    "name": "Elena",
+    "age": 55,
+    "is_active": null,
+    "signup_date": "2021-01-25",
+    "last_login": "2021-01-25T00:48:00",
+    "scores": [
+      68.561
+    ],
+    "address": {
+      "street": null,
+      "city": "Naples",
+      "zip": "80100"
+    },
+    "tags": [
+      "beta",
+      "γamma"
+    ],
+    "notes": "Emoji: 😀👍🔥💼",
+    "balance": 13090.29,
+    "preferences": {
+      "newsletter": null,
+      "theme": "system",
+      "language": "es"
+    },
+    "nullable_field": null,
+    "mixed_type_field": "24"
+  },
+  {
+    "id": 25,
+    "name": "Diana",
+    "age": 30,
+    "is_active": true,
+    "signup_date": "2021-01-26",
+    "last_login": "2021-01-26T01:55:00",
+    "scores": [
+      47.419,
+      2.103,
+      10.334,
+      6.942
+    ],
+    "address": {
+      "street": null,
+      "city": "Venice",
+      "zip": "20100"
+    },
+    "tags": [
+      "新規",
+      "quote\"inside",
+      "test,comma"
+    ],
+    "notes": "Empty string becomes \"\"",
+    "balance": 11995.75,
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "de"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 25
+  },
+  {
+    "id": 26,
+    "name": "Bob",
+    "age": 30,
+    "is_active": null,
+    "signup_date": "2021-01-27",
+    "last_login": "2021-01-27T02:02:00",
+    "scores": [
+      83.925,
+      56.203
+    ],
+    "address": {
+      "street": null,
+      "city": "Bologna",
+      "zip": "20100"
+    },
+    "tags": [
+      "sales",
+      "support",
+      "alpha",
+      "test,comma"
+    ],
+    "notes": "Multiline\ntext with line breaks.\nAnother line.",
+    "balance": -1729.44,
+    "preferences": {
+      "newsletter": null,
+      "theme": "dark",
+      "language": "it"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": "26"
+  },
+  {
+    "id": 27,
+    "name": null,
+    "age": 25,
+    "is_active": false,
+    "signup_date": "2021-01-28",
+    "last_login": "2021-01-28T03:09:00",
+    "scores": [
+      7.691,
+      65.394
+    ],
+    "address": {
+      "street": "Via Roma",
+      "city": "Milan",
+      "zip": "00100"
+    },
+    "tags": [
+      "新規",
+      "beta"
+    ],
+    "notes": "Contains, commas, and; semicolons.",
+    "balance": 18484.74,
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "fr"
+    },
+    "nullable_field": null,
+    "mixed_type_field": "27"
+  },
+  {
+    "id": 28,
+    "name": "Γιάννης",
+    "age": 55,
+    "is_active": null,
+    "signup_date": "2021-01-29",
+    "last_login": null,
+    "scores": [
+      13.696,
+      90.856,
+      92.83,
+      84.686
+    ],
+    "address": {
+      "street": "Viale Europa",
+      "city": "Verona",
+      "zip": "20100"
+    },
+    "tags": [
+      "vip",
+      "🚀",
+      "alpha",
+      "support"
+    ],
+    "notes": "Emoji: 😀👍🔥💼",
+    "balance": 1676.24,
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": null
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 28
+  },
+  {
+    "id": 29,
+    "name": "Elena",
+    "age": 55,
+    "is_active": null,
+    "signup_date": "2021-01-30",
+    "last_login": "2021-01-30T05:23:00",
+    "scores": [
+      55.618,
+      4.645
+    ],
+    "address": {
+      "street": null,
+      "city": "Rome",
+      "zip": "10100"
+    },
+    "tags": [
+      "beta",
+      "quote\"inside",
+      "vip"
+    ],
+    "notes": "Multiline\ntext with line breaks.\nAnother line.",
+    "balance": 18899.93,
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "de"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": {
+      "n": 29
+    }
+  },
+  {
+    "id": 30,
+    "name": "Diana",
+    "age": 18,
+    "is_active": null,
+    "signup_date": "2021-01-31",
+    "last_login": "2021-01-31T06:30:00",
+    "scores": [
+      95.445
+    ],
+    "tags": [
+      "quote\"inside",
+      "γamma",
+      "test,comma"
+    ],
+    "notes": "Simple note.",
+    "balance": 16863.34,
+    "nullable_field": null,
+    "mixed_type_field": [
+      30,
+      31
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Γιάννης",
+    "age": 55,
+    "is_active": null,
+    "signup_date": "2021-02-01",
+    "last_login": "2021-02-01T07:37:00",
+    "scores": [
+      80.495
+    ],
+    "address": {
+      "street": "Strada Statale",
+      "city": "Florence",
+      "zip": "80100"
+    },
+    "tags": [
+      "vip",
+      "sales",
+      "alpha",
+      "γamma"
+    ],
+    "notes": "Emoji: 😀👍🔥💼",
+    "balance": 1527.68,
+    "preferences": {
+      "newsletter": null,
+      "theme": "light",
+      "language": "es"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": [
+      31,
+      32
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Łukasz",
+    "age": 67,
+    "is_active": true,
+    "signup_date": "2021-02-02",
+    "last_login": "2021-02-02T08:44:00",
+    "scores": [],
+    "address": {
+      "street": null,
+      "city": "Bologna",
+      "zip": "20100"
+    },
+    "tags": [
+      "alpha",
+      "δelta",
+      "test,comma",
+      "γamma",
+      "beta"
+    ],
+    "notes": "Empty string becomes \"\"",
+    "balance": -2946.13,
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "de"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 32.0
+  },
+  {
+    "id": 33,
+    "name": "Bob",
+    "age": 18,
+    "is_active": null,
+    "signup_date": "2021-02-03",
+    "last_login": "2021-02-03T09:51:00",
+    "scores": [],
+    "address": {
+      "street": "Strada Statale",
+      "city": "Verona",
+      "zip": "80100"
+    },
+    "tags": [
+      "δelta",
+      "🚀",
+      "beta"
+    ],
+    "notes": "JSON-looking text: {\"fake\": true}",
+    "balance": -3339.33,
+    "preferences": {
+      "newsletter": null,
+      "theme": null,
+      "language": "de"
+    },
+    "nullable_field": null,
+    "mixed_type_field": 33
+  },
+  {
+    "id": 34,
+    "name": "Francesco",
+    "age": 67,
+    "is_active": false,
+    "signup_date": "2021-02-04",
+    "last_login": "2021-02-04T10:58:00",
+    "scores": [
+      60.173,
+      94.912,
+      69.185,
+      94.119
+    ],
+    "address": {
+      "street": "Strada Statale",
+      "city": "Naples",
+      "zip": "10100"
+    },
+    "tags": [
+      "新規",
+      "sales",
+      "γamma"
+    ],
+    "notes": "Contains, commas, and; semicolons.",
+    "balance": 717.53,
+    "preferences": {
+      "newsletter": null,
+      "theme": "system",
+      "language": "en"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": [
+      34,
+      35
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Alice",
+    "age": 40,
+    "is_active": true,
+    "signup_date": "2021-02-05",
+    "last_login": null,
+    "scores": [
+      4.755,
+      0.599,
+      66.072,
+      87.349
+    ],
+    "address": {
+      "street": null,
+      "city": "Bologna",
+      "zip": "90100"
+    },
+    "tags": [
+      "sales",
+      "alpha",
+      "δelta"
+    ],
+    "notes": "Empty string becomes \"\"",
+    "balance": 3975.95,
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "es"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 35.0
+  },
+  {
+    "id": 36,
+    "name": "Carlos",
+    "age": 40,
+    "is_active": true,
+    "signup_date": "2021-02-06",
+    "last_login": "2021-02-06T12:12:00",
+    "scores": [
+      16.287
+    ],
+    "address": {
+      "street": "Piazza Duomo",
+      "city": "Verona",
+      "zip": "80100"
+    },
+    "tags": [],
+    "notes": "CSV tricky: \"starts with quote, has comma, ends with quote\"",
+    "balance": 5835.65,
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "fr"
+    },
+    "nullable_field": null,
+    "mixed_type_field": 36
+  },
+  {
+    "id": 37,
+    "name": "Diana",
+    "age": 40,
+    "is_active": null,
+    "signup_date": "2021-02-07",
+    "last_login": "2021-02-07T13:19:00",
+    "scores": [
+      58.106,
+      12.801,
+      71.838,
+      65.135
+    ],
+    "address": {
+      "street": "Viale Europa",
+      "city": null,
+      "zip": "20100"
+    },
+    "tags": [
+      "beta",
+      "support"
+    ],
+    "notes": "Multiline\ntext with line breaks.\nAnother line.",
+    "balance": 8118.12,
+    "preferences": {
+      "newsletter": false,
+      "theme": "system",
+      "language": "de"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": null
+  },
+  {
+    "id": 38,
+    "name": "Francesco",
+    "age": 18,
+    "is_active": true,
+    "signup_date": "2021-02-08",
+    "last_login": "2021-02-08T14:26:00",
+    "scores": [
+      10.928
+    ],
+    "address": {
+      "street": "Via Roma",
+      "city": null,
+      "zip": null
+    },
+    "tags": [
+      "δelta",
+      "vip",
+      "γamma"
+    ],
+    "notes": "Simple note.",
+    "balance": 833.0,
+    "preferences": {
+      "newsletter": true,
+      "theme": "system",
+      "language": "fr"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": null
+  },
+  {
+    "id": 39,
+    "name": "Γιάννης",
+    "age": 30,
+    "is_active": false,
+    "signup_date": "2021-02-09",
+    "last_login": "2021-02-09T15:33:00",
+    "scores": [
+      6.9,
+      41.707
+    ],
+    "address": {
+      "street": null,
+      "city": "Venice",
+      "zip": "00100"
+    },
+    "tags": [
+      "δelta",
+      "vip",
+      "support"
+    ],
+    "notes": "Unicode: café, jalapeño, crème brûlée.",
+    "balance": 9898.96,
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "fr"
+    },
+    "nullable_field": null,
+    "mixed_type_field": 39.0
+  },
+  {
+    "id": 40,
+    "name": "Bob",
+    "age": 67,
+    "is_active": true,
+    "signup_date": "2021-02-10",
+    "last_login": "2021-02-10T16:40:00",
+    "scores": [
+      30.551,
+      18.776,
+      28.805
+    ],
+    "address": {
+      "street": "Piazza Duomo",
+      "city": "Venice",
+      "zip": null
+    },
+    "tags": [
+      "δelta",
+      "beta",
+      "vip",
+      "quote\"inside"
+    ],
+    "notes": "Simple note.",
+    "balance": 12576.07,
+    "nullable_field": "not null",
+    "mixed_type_field": "40"
+  },
+  {
+    "id": 41,
+    "name": "Alice",
+    "age": 55,
+    "is_active": true,
+    "signup_date": "2021-02-11",
+    "last_login": "2021-02-11T17:47:00",
+    "scores": [
+      86.275,
+      1.124,
+      72.107,
+      94.82
+    ],
+    "address": {
+      "street": "Viale Europa",
+      "city": "Milan",
+      "zip": null
+    },
+    "tags": [
+      "sales",
+      "vip"
+    ],
+    "notes": "Emoji: 😀👍🔥💼",
+    "balance": 13494.61,
+    "preferences": {
+      "newsletter": false,
+      "theme": null,
+      "language": "es"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": {
+      "n": 41
+    }
+  },
+  {
+    "id": 42,
+    "name": "Bob",
+    "age": 30,
+    "is_active": null,
+    "signup_date": "2021-02-12",
+    "last_login": null,
+    "scores": [
+      25.673,
+      98.49,
+      23.291
+    ],
+    "address": {
+      "street": "Viale Europa",
+      "city": "Milan",
+      "zip": "20100"
+    },
+    "tags": [
+      "support",
+      "vip",
+      "🚀",
+      "test,comma",
+      "beta"
+    ],
+    "notes": "Quoted \"word\" inside.",
+    "balance": 12997.16,
+    "preferences": {
+      "newsletter": true,
+      "theme": "system",
+      "language": "es"
+    },
+    "nullable_field": null,
+    "mixed_type_field": {
+      "n": 42
+    }
+  },
+  {
+    "id": 43,
+    "name": "Bob",
+    "age": 21,
+    "is_active": true,
+    "signup_date": "2021-02-13",
+    "last_login": "2021-02-13T19:01:00",
+    "scores": [
+      96.074,
+      10.715,
+      41.122,
+      59.703
+    ],
+    "address": {
+      "street": null,
+      "city": "Florence",
+      "zip": "00100"
+    },
+    "tags": [
+      "🚀",
+      "sales",
+      "support",
+      "beta",
+      "quote\"inside"
+    ],
+    "notes": "Multiline\ntext with line breaks.\nAnother line.",
+    "balance": -572.59,
+    "preferences": {
+      "newsletter": true,
+      "theme": "system",
+      "language": "de"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": "43"
+  },
+  {
+    "id": 44,
+    "name": "Carlos",
+    "age": 40,
+    "is_active": null,
+    "signup_date": "2021-02-14",
+    "last_login": "2021-02-14T20:08:00",
+    "scores": [],
+    "address": {
+      "street": null,
+      "city": "Palermo",
+      "zip": "00100"
+    },
+    "tags": [
+      "vip",
+      "beta",
+      "🚀",
+      "alpha"
+    ],
+    "notes": "JSON-looking text: {\"fake\": true}",
+    "balance": -2812.53,
+    "preferences": {
+      "newsletter": null,
+      "theme": null,
+      "language": "en"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": {
+      "n": 44
+    }
+  },
+  {
+    "id": 45,
+    "name": null,
+    "age": 18,
+    "is_active": true,
+    "signup_date": "2021-02-15",
+    "last_login": "2021-02-15T21:15:00",
+    "scores": [
+      14.297,
+      84.646,
+      14.58,
+      45.679,
+      71.058
+    ],
+    "tags": [
+      "vip",
+      "新規",
+      "support"
+    ],
+    "notes": "Quoted \"word\" inside.",
+    "balance": 17100.83,
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "it"
+    },
+    "nullable_field": null,
+    "mixed_type_field": 45.0
+  },
+  {
+    "id": 46,
+    "name": "Zoë",
+    "age": 18,
+    "is_active": false,
+    "signup_date": "2021-02-16",
+    "last_login": "2021-02-16T22:22:00",
+    "scores": [
+      73.503,
+      40.403
+    ],
+    "address": {
+      "street": null,
+      "city": "Naples",
+      "zip": "20100"
+    },
+    "tags": [
+      "vip",
+      "beta",
+      "test,comma"
+    ],
+    "notes": "Contains, commas, and; semicolons.",
+    "balance": 2294.31,
+    "preferences": {
+      "newsletter": true,
+      "theme": "system",
+      "language": "es"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": {
+      "n": 46
+    }
+  },
+  {
+    "id": 47,
+    "name": "Zoë",
+    "age": 40,
+    "is_active": false,
+    "signup_date": "2021-02-17",
+    "last_login": "2021-02-17T23:29:00",
+    "scores": [
+      77.266,
+      46.51,
+      88.783
+    ],
+    "address": {
+      "street": "Strada Statale",
+      "city": "Palermo",
+      "zip": "90100"
+    },
+    "tags": [
+      "γamma"
+    ],
+    "notes": "CSV tricky: \"starts with quote, has comma, ends with quote\"",
+    "balance": 1042.84,
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": null
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": "47"
+  },
+  {
+    "id": 48,
+    "name": "Carlos",
+    "age": 40,
+    "is_active": false,
+    "signup_date": "2021-02-18",
+    "last_login": "2021-02-18T00:36:00",
+    "scores": [
+      40.384,
+      49.684
+    ],
+    "address": {
+      "street": "Strada Statale",
+      "city": "Turin",
+      "zip": null
+    },
+    "tags": [],
+    "notes": "CSV tricky: \"starts with quote, has comma, ends with quote\"",
+    "balance": 6846.08,
+    "preferences": {
+      "newsletter": null,
+      "theme": "system",
+      "language": "de"
+    },
+    "nullable_field": null,
+    "mixed_type_field": "48"
+  },
+  {
+    "id": 49,
+    "name": null,
+    "age": 30,
+    "is_active": true,
+    "signup_date": "2021-02-19",
+    "last_login": null,
+    "scores": [
+      35.518,
+      11.507
+    ],
+    "address": {
+      "street": "Via Roma",
+      "city": "Venice",
+      "zip": "20100"
+    },
+    "tags": [
+      "quote\"inside",
+      "support",
+      "sales",
+      "beta"
+    ],
+    "notes": "Empty string becomes \"\"",
+    "balance": 14576.65,
+    "preferences": {
+      "newsletter": null,
+      "theme": "dark",
+      "language": null
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": [
+      49,
+      50
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Bob",
+    "age": 40,
+    "is_active": true,
+    "signup_date": "2021-02-20",
+    "last_login": "2021-02-20T02:50:00",
+    "scores": [
+      48.263
+    ],
+    "address": {
+      "street": null,
+      "city": "Naples",
+      "zip": "10100"
+    },
+    "tags": [],
+    "notes": "Emoji: 😀👍🔥💼",
+    "balance": 12158.81,
+    "nullable_field": "not null",
+    "mixed_type_field": 50.0
+  },
+  {
+    "id": 51,
+    "name": "Zoë",
+    "age": 30,
+    "is_active": null,
+    "signup_date": "2021-02-21",
+    "last_login": "2021-02-21T03:57:00",
+    "scores": [
+      51.112,
+      62.251
+    ],
+    "address": {
+      "street": null,
+      "city": "Bologna",
+      "zip": "80100"
+    },
+    "tags": [
+      "新規"
+    ],
+    "notes": "Quoted \"word\" inside.",
+    "balance": 13708.18,
+    "preferences": {
+      "newsletter": true,
+      "theme": "system",
+      "language": "it"
+    },
+    "nullable_field": null,
+    "mixed_type_field": [
+      51,
+      52
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Zoë",
+    "age": null,
+    "is_active": false,
+    "signup_date": "2021-02-22",
+    "last_login": "2021-02-22T04:04:00",
+    "scores": [],
+    "address": {
+      "street": "Via Roma",
+      "city": "Milan",
+      "zip": "20100"
+    },
+    "tags": [
+      "新規",
+      "δelta",
+      "vip",
+      "beta"
+    ],
+    "notes": "Contains, commas, and; semicolons.",
+    "balance": 13464.93,
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": null
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": null
+  },
+  {
+    "id": 53,
+    "name": "Γιάννης",
+    "age": 18,
+    "is_active": false,
+    "signup_date": "2021-02-23",
+    "last_login": "2021-02-23T05:11:00",
+    "scores": [
+      66.316
+    ],
+    "address": {
+      "street": "Corso Italia",
+      "city": "Verona",
+      "zip": "80100"
+    },
+    "tags": [],
+    "notes": "Multiline\ntext with line breaks.\nAnother line.",
+    "balance": 17015.92,
+    "preferences": {
+      "newsletter": true,
+      "theme": null,
+      "language": "it"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": [
+      53,
+      54
+    ]
+  },
+  {
+    "id": 54,
+    "name": null,
+    "age": null,
+    "is_active": null,
+    "signup_date": "2021-02-24",
+    "last_login": "2021-02-24T06:18:00",
+    "scores": [
+      23.305,
+      14.785,
+      25.506,
+      12.682
+    ],
+    "address": {
+      "street": "Viale Europa",
+      "city": "Rome",
+      "zip": null
+    },
+    "tags": [
+      "alpha",
+      "vip"
+    ],
+    "notes": "CSV tricky: \"starts with quote, has comma, ends with quote\"",
+    "balance": -2910.35,
+    "preferences": {
+      "newsletter": null,
+      "theme": "system",
+      "language": "fr"
+    },
+    "nullable_field": null,
+    "mixed_type_field": 54
+  },
+  {
+    "id": 55,
+    "name": "Alice",
+    "age": 18,
+    "is_active": true,
+    "signup_date": "2021-02-25",
+    "last_login": "2021-02-25T07:25:00",
+    "scores": [
+      55.953
+    ],
+    "address": {
+      "street": "Piazza Duomo",
+      "city": "Florence",
+      "zip": null
+    },
+    "tags": [
+      "beta",
+      "δelta",
+      "γamma",
+      "test,comma",
+      "quote\"inside"
+    ],
+    "notes": "Unicode: café, jalapeño, crème brûlée.",
+    "balance": 14305.99,
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": null
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 55
+  },
+  {
+    "id": 56,
+    "name": null,
+    "age": 18,
+    "is_active": false,
+    "signup_date": "2021-02-26",
+    "last_login": null,
+    "scores": [
+      89.201,
+      9.008,
+      10.819
+    ],
+    "address": {
+      "street": "Corso Italia",
+      "city": "Naples",
+      "zip": "80100"
+    },
+    "tags": [
+      "新規",
+      "beta",
+      "vip",
+      "support",
+      "alpha"
+    ],
+    "notes": "Simple note.",
+    "balance": 608.08,
+    "preferences": {
+      "newsletter": true,
+      "theme": null,
+      "language": "en"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": [
+      56,
+      57
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Zoë",
+    "age": 25,
+    "is_active": true,
+    "signup_date": "2021-02-27",
+    "last_login": "2021-02-27T09:39:00",
+    "scores": [
+      8.239,
+      30.068
+    ],
+    "address": {
+      "street": null,
+      "city": "Milan",
+      "zip": "90100"
+    },
+    "tags": [
+      "vip",
+      "alpha"
+    ],
+    "notes": "Emoji: 😀👍🔥💼",
+    "balance": 15025.43,
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "es"
+    },
+    "nullable_field": null,
+    "mixed_type_field": "57"
+  },
+  {
+    "id": 58,
+    "name": "Bob",
+    "age": 18,
+    "is_active": null,
+    "signup_date": "2021-02-28",
+    "last_login": "2021-02-28T10:46:00",
+    "scores": [
+      95.339
+    ],
+    "address": {
+      "street": null,
+      "city": "Florence",
+      "zip": null
+    },
+    "tags": [
+      "δelta"
+    ],
+    "notes": "Simple note.",
+    "balance": 3997.81,
+    "preferences": {
+      "newsletter": false,
+      "theme": "system",
+      "language": "it"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": 58
+  },
+  {
+    "id": 59,
+    "name": "Alice",
+    "age": 25,
+    "is_active": false,
+    "signup_date": "2021-03-01",
+    "last_login": "2021-03-01T11:53:00",
+    "scores": [
+      20.793,
+      37.692,
+      16.081,
+      39.708,
+      62.475
+    ],
+    "address": {
+      "street": "Corso Italia",
+      "city": "Turin",
+      "zip": "10100"
+    },
+    "tags": [
+      "sales",
+      "support",
+      "beta",
+      "🚀",
+      "γamma"
+    ],
+    "notes": "Simple note.",
+    "balance": 2175.21,
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "it"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": [
+      59,
+      60
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Zoë",
+    "age": 30,
+    "is_active": false,
+    "signup_date": "2021-03-02",
+    "last_login": "2021-03-02T12:00:00",
+    "scores": [
+      5.546,
+      93.329,
+      33.517,
+      14.76,
+      25.667
+    ],
+    "tags": [
+      "δelta",
+      "test,comma",
+      "γamma",
+      "beta",
+      "新規"
+    ],
+    "notes": "Simple note.",
+    "balance": 17730.64,
+    "nullable_field": null,
+    "mixed_type_field": "60"
+  },
+  {
+    "id": 1001,
+    "name": "Edge, Case \"Quoted\"",
+    "age": 0,
+    "is_active": true,
+    "signup_date": "1970-01-01",
+    "last_login": "1970-01-01T00:00:00Z",
+    "scores": [],
+    "address": {
+      "street": "",
+      "city": "",
+      "zip": ""
+    },
+    "tags": [
+      "",
+      " ",
+      "🚀",
+      "comma,inside"
+    ],
+    "notes": "Empty-like values and tricky punctuation, newlines\nand tabs\tincluded.",
+    "balance": 0.0,
+    "preferences": {},
+    "nullable_field": null,
+    "mixed_type_field": "string"
+  },
+  {
+    "id": 1002,
+    "name": "VeryLongText",
+    "age": null,
+    "is_active": false,
+    "signup_date": "2099-12-31",
+    "last_login": null,
+    "scores": [
+      0.20331154291222175,
+      0.4779969712948814,
+      0.021358585058004365,
+      0.36262296994851806,
+      0.6719590251720194,
+      0.20479236922897992,
+      0.4922918655884937,
+      0.1310482453387486,
+      0.8092120824156409,
+      0.40557408890619817,
+      0.5760143589282346,
+      0.8301043043361314,
+      0.2689467493053612,
+      0.9534136553821728,
+      0.36257867745638395,
+      0.39605269928184517,
+      0.21046971338204912,
+      0.7022805276865796,
+      0.881860717915202,
+      0.37699232431316243,
+      0.2801990184553279,
+      0.17495298552823824,
+      0.3184804656879886,
+      0.6975552369343427,
+      0.010836900680166295,
+      0.16167314814479483,
+      0.01165583184709662,
+      0.5025610101826289,
+      0.8183278258616583,
+      0.8908439467489402,
+      0.19251902983727776,
+      0.8651550109274819,
+      0.24297630260893166,
+      0.4085713407054037,
+      0.3619062251594962,
+      0.028411036480100238,
+      0.6153831956822031,
+      0.8437761607796133,
+      0.5366939724759077,
+      0.329436176815736,
+      0.3844358733145681,
+      0.8306348426258522,
+      0.2700428275413974,
+      0.6236843272473444,
+      0.07017117073017465,
+      0.8716405945220971,
+      0.9750102691192585,
+      0.7630646801085705,
+      0.6942008590221971,
+      0.2495461491793951
+    ],
+    "address": {
+      "street": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "city": "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+      "zip": "ZZZZZZZZZZ"
+    },
+    "tags": [
+      "longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong"
+    ],
+    "notes": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+    "balance": -1234.56,
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "en"
+    },
+    "nullable_field": "not null",
+    "mixed_type_field": [
+      "a",
+      {
+        "b": 2
+      },
+      [
+        3,
+        4
+      ],
+      null
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+id,name,comment,amount,active,created_at
+1,Alice,Simple note,1000.00,true,2024-01-02T10:30:00Z
+2,Bob,"Contains, comma","12,34",false,2023-12-31
+3,Carlos,"Quoted ""word"" inside",50.5,true,2021-05-06 12:00:00
+4,Diana,"Multiline
+with newline",-0.01,,
+5,Elena,Emoji 😀👍 and café,9999999999,true,2020-02-29
+6,Francesco,Leading and trailing spaces  ,  42  ,false,not-a-date
+7,Zoë,"Escaped, ""comma and quote""","1,234.56",true,2022-10-10T08:09:10
+8,Γιάννης,Greek letters; semicolon;,0,false,2024-12-12
+9,Łukasz,Polish diacritics łóżźć,,true,
+10,"Newline in name
+Here",Name field has newline,3.14159,true,2025-01-01
